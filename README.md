@@ -1,3 +1,4 @@
+
 # 📧 Email Spam Detector
 
 A simple yet effective Email Spam Detection web app built using **Flask**, **Machine Learning**, and **Natural Language Processing**.  
@@ -26,26 +27,28 @@ It classifies whether an email/message is **SPAM** or **NOT SPAM** using a train
 ## 📸 Screenshot
 
 <div align="center">
-  <img src="Screenshots/spam.png" alt="Spam Detector UI" width="700"/>
+  <img src="Screenshots/Spam.png" alt="Spam Detector UI" width="700"/>
 </div>
 
 ---
 
 ## 🗂 Folder Structure
+
+```
 Email_Spam_Detector/
 ├── app.py
 ├── sms.tsv
 ├── templates/
-│ └── index.html
+│   └── index.html
 ├── static/
-│ ├── style.css
-│ └── bg.jpg
+│   ├── style.css
+│   └── bg.jpg
 ├── Screenshots/
-│ └── spam.png
+│   └── spam.png
 ├── venv/ (not pushed)
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
@@ -53,9 +56,11 @@ Email_Spam_Detector/
 
 ### 🔧 Prerequisites
 
-- Python 3.x
-- pip
-- Flask
+- Python 3.x  
+- pip  
+- Flask  
+
+---
 
 ### 🪜 Steps
 
@@ -64,39 +69,56 @@ Email_Spam_Detector/
 git clone https://github.com/Saniya047/Email_Spam_Detector.git
 cd Email_Spam_Detector
 
-# (Optional) Create virtual environment
+# (Optional) Create a virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-If you don't have a requirements.txt, generate it with:
+If you don't have a `requirements.txt`, generate it with:
 
+```bash
 pip install flask pandas scikit-learn
 pip freeze > requirements.txt
+```
 
-▶️ Run the App
+---
 
+### ▶️ Run the App
+
+```bash
 python app.py
+```
 
-Then open http://127.0.0.1:5000 in your browser.
-📂 Dataset Used
+Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
-    SMS Spam Collection Dataset from UCI Machine Learning Repository
-    (5,000+ labeled SMS messages)
+---
 
-✨ Future Improvements
+## 📂 Dataset Used
 
-    Add prediction confidence score
+- **SMS Spam Collection Dataset**  
+  From the UCI Machine Learning Repository  
+  > Contains 5,000+ labeled SMS messages as "spam" or "ham"
 
-    Use a real email dataset instead of SMS
+---
 
-    Host the project online
+## ✨ Future Improvements
 
-    Add mobile responsiveness and animations
+- Show prediction **confidence scores**  
+- Use a real **email dataset** instead of SMS  
+- Add **mobile responsiveness** and animations  
+- Host online via **Render**, **Vercel**, or **PythonAnywhere**
 
-📄 License
+---
 
-This project is for educational use. Feel free to fork and extend it.
+## 📄 License
 
+This project is for **educational use**. Feel free to fork, use, and improve it!
+
+---
+
+## 🙋‍♀️ Author
+
+Built  by [Saniya047](https://github.com/Saniya047)
